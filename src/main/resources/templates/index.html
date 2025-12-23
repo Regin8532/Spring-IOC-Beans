@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Product Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .container {
+            background: white;
+            width: 400px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            background: #007bff;
+            color: white;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Product Catalog System</h2>
+
+    <a href="/addProduct">Add Product</a>
+    <a href="/displayProducts">Display Products</a>
+</div>
+
+</body>
+</html>
